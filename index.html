@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Formulário Clientes</title>
+</head>
+<body>
+    <div class="head">
+        <h1>Cadastro de Clientes</h1>
+        <p>Informe os dados do cliente abaixo:</p>
+        <br>
+    </div>
+    <form class="form">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="nome" />
+        </div>
+        <div>
+            <label for="name">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" />
+        </div>
+        <div>
+            <label for="name">Bairro:</label>
+            <input type="text" name="bairro" id="bairro" />
+        </div>
+        <div>
+            <label for="name">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" />
+        </div>
+        <div>
+            <label for="name">Estado:</label>
+            <input type="text" name="estado" id="estado" />
+        </div>
+        <div>
+            <label for="name">CEP:</label>
+            <input type="text" name="cep" id="cep" />
+        </div>
+        <div>
+            <label for="name">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" />
+        </div>
+        
+        <div class="button">
+            <button type="button" onclick="exibeDados()">Salvar</button>
+        </div>
+    </form>
+    <div>
+        <div class="footer">
+            <div class="dados">
+                <h2 id="cabecalho"></h2>
+                <h3 id="dadosNome"></h3>
+                <h3 id="dadosEndereco"></h3>
+                <h3 id="dadosBairro"></h3>
+                <h3 id="dadosCidade"></h3>
+                <h3 id="dadosEstado"></h3>
+                <h3 id="dadosCep"></h3>
+                <h3 id="dadosTelefone"></h3>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
